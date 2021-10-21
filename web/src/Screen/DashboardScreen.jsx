@@ -1,9 +1,18 @@
 import React from 'react'
+import ButtonAppBar from '../Components/Drawer'
+import TodoApp from './TodoApp'
+import UserProfile from './UserProfile'
+
 
 const DashboardScreen = () => {
     return (
         <div>
-            <h1>Dashboard Screen</h1>
+         <ButtonAppBar />
+            <div>
+                {/* <TodoApp /> */}
+                <UserProfile     />
+            </div>
+
         </div>
     )
 }

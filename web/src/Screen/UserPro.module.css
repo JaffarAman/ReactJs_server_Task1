@@ -1,0 +1,47 @@
+.mainProBox{
+    width: 100%;
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileCard{
+    width: 50%;
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right , #09DEEA , wheat );
+}
+.profilePic{
+    margin: 10px;
+    /* border: 1px solid lightgrey; */
+    width: 150px;
+    text-align: center;
+    /* width: 20%; */
+}
+.userDetailsBox{
+    width:350px ;
+    /* border-left: 2px solid lightgray; */
+    
+    margin: 10px;
+}
+.userDetailsBox ul{
+    width: 100%;
+
+}
+.userDetailsBox li{
+    width: 100%;
+    border-bottom: 2px solid rgb(126, 125, 125);
+    padding: 8px;
+    list-style: none;
+}
+
+@media only screen and (max-width:750px){
+    .profileCard{
+        width: 80%;
+    }
+}
